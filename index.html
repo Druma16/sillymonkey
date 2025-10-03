@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Item Lookup</title>
+</head>
+<body>
+  <header>
+    <h1>Item Lookup</h1>
+  </header>
+
+  <section>
+    <label for="search-input">Search for an item:</label>
+    <input type="text" id="search-input" placeholder="Enter item name">
+    <button id="search-button">Search</button>
+  </section>
+
+  <section id="results-section">
+    <h2>Results:</h2>
+    <ul id="results-list"></ul>
+  </section>
+
+  <script>
+    // Sample JSON data
+    const itemData = [
+      {
+        "id": 1,
+        "name": "Pencil",
+        "description": "A standard #2 pencil",
+        "category": "Stationery",
+        "price": 0.50
+      },
+      {
+        "id": 2,
+        "name": "Notebook",
+        "description": "A 100-page lined notebook",
+        "category": "Stationery",
+        "price": 2.99
+      },
+      {
+        "id": 3,
+        "name": "Pen",
+        "description": "A blue ballpoint pen",
+        "category": "Stationery",
+        "price": 1.25
+      },
+      {
+        "id": 4,
+        "name": "Eraser",
+        "description": "A pink rectangular eraser",
+        "category": "Stationery",
+        "price": 0.75
+      },
+      {
+        "id": 5,
+        "name": "Ruler",
+        "description": "A 12-inch plastic ruler",
+        "category": "Stationery",
+        "price": 1.50
+      }
+    ];
+
+    // Function to handle the lookup
+    function lookupItem() {
+      const searchInput = document.getElementById('search-input').value.toLowerCase();
+      const resultsList = document.getElementById('results-list');
+      resultsList.innerHTML = '';
+
+      const matchingItems = itemData.filter(item => item.name.toLowerCase().includes(searchInput));
+
+      if (matchingItems.length > 0) {
+        matchingItems.forEach(item => {
+          const listItem = document.createElement('li');
+          listItem.innerHTML = `
+            <h3>${item.name}</h3>
+            <p>${item.description}</p>
+            <p>Category: ${item.category}</p>
+            <p>Price: $${item.price.toFixed(2)}</p>
+          `;
+          resultsList.appendChild(listItem);
+        });
+      } else {
+        const listItem = document.createElement('li');
+        listItem.textContent = 'No items found.';
+        resultsList.appendChild(listItem);
+      }
+    }
+
+    // Add event listener to the search button
+    document.getElementById('search-button').addEventListener('click', lookupItem);
+  </script>
+</body>
+</html>
