@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Pencil",
+    "description": "A standard #2 pencil",
+    "category": "Stationery",
+    "price": 0.50
+  },
+  {
+    "id": 2,
+    "name": "Notebook",
+    "description": "A 100-page lined notebook",
+    "category": "Stationery",
+    "price": 2.99
+  },
+  {
+    "id": 3,
+    "name": "Pen",
+    "description": "A blue ballpoint pen",
+    "category": "Stationery",
+    "price": 1.25
+  },
+  {
+    "id": 4,
+    "name": "Eraser",
+    "description": "A pink rectangular eraser",
+    "category": "Stationery",
+    "price": 0.75
+  },
+  {
+    "id": 5,
+    "name": "Ruler",
+    "description": "A 12-inch plastic ruler",
+    "category": "Stationery",
+    "price": 1.50
+  }
+]
