@@ -33,8 +33,6 @@
 
     function lookupItem() {
         const searchInput = document.getElementById('search-input').value.toLowerCase();
-        const resultsList = document.getElementById('results-list');
-        resultsList.innerHTML = '';
 
         // get the data to use if not cached already
         if (!itemData) {
@@ -48,12 +46,15 @@
                 .catch(error => {
                     console.error('Error fetching data:', error);
                 });
-        } else{
+        } else {
             processSearch(searchInput);
         }
     } // end lookupItem
 
     function processSearch(searchInput) {
+        const resultsList = document.getElementById('results-list');
+        resultsList.innerHTML = '';
+
         // Find the matches
         const matchingItems = itemData.filter(item => item.name.toLowerCase().includes(searchInput));
 
