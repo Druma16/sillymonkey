@@ -2,23 +2,30 @@
 <html>
 <head>
   <title>Item Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+<!--  <style>-->
+<!--    #results-list li[data-id="2"] h3 {-->
+<!--      color: red;-->
+<!--    }-->
+<!--  </style>-->
 </head>
 <body>
   <header>
     <h1>Item Lookup</h1>
   </header>
+<!--  Minimum responsive according to AI -->
+  <div class="container">
+    <section class="search-section">
+      <label for="search-input">Search for an item:</label>
+      <input type="text" id="search-input" placeholder="Enter item name">
+      <button id="search-button">Search</button>
+    </section>
 
-  <section>
-    <label for="search-input">Search for an item:</label>
-    <input type="text" id="search-input" placeholder="Enter item name">
-    <button id="search-button">Search</button>
-  </section>
-
-  <section id="results-section">
-    <h2>Results:</h2>
-    <ul id="results-list"></ul>
-  </section>
-
+    <section class="results-section">
+      <h2>Results:</h2>
+      <ul id="results-list"></ul>
+    </section>
+  </div>
   <script>
     // Sample JSON data
     const itemData = [
@@ -65,11 +72,15 @@
       const resultsList = document.getElementById('results-list');
       resultsList.innerHTML = '';
 
+      // Find the matches
       const matchingItems = itemData.filter(item => item.name.toLowerCase().includes(searchInput));
 
+      // Convert matches to display elements (list)
       if (matchingItems.length > 0) {
         matchingItems.forEach(item => {
           const listItem = document.createElement('li');
+          // add some attribute for css style matching
+          listItem.setAttribute('data-id', item.id);
           listItem.innerHTML = `
             <h3>${item.name}</h3>
             <p>${item.description}</p>
