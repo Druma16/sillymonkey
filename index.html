@@ -38,7 +38,8 @@
 
         // get the data to use if not cached already
         if (!itemData) {
-            fetch('data.json')
+            // fetch('data.json')
+            fetch('https://druma16.github.io/sillymonkey/data.json')
                 .then(response => response.json())
                 .then(data => {
                     itemData = data; // Cache the data
