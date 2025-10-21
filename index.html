@@ -59,20 +59,65 @@
         const matchingItems = itemData.filter(item => item.ingredients.toLowerCase().includes(searchInput));
 
         // Convert matches to display elements (list)
+
         if (matchingItems.length > 0) {
             matchingItems.forEach(item => {
                 const listItem = document.createElement('li');
-                // add some attribute for css style matching
-                listItem.setAttribute('data-id', item.id);
-                listItem.innerHTML = `
-                    <h3>${item.ingredients}</h3>
-                    <p>${item.remarks}</p>
-                    <p>Categories: ${item.categories}</p>
-                    <p>Compatability: ${item.compatibility}</p>
-                    <p>Histamine: ${item.histamine}</p>
-                    <p>Amines: ${item.amines}</p>
-                    <p>Blocker: ${item.blocker}</p>
-                `;
+
+                listItem.innerHTML = '';
+
+                const h3 = document.createElement('h3');
+                h3.textContent = item.ingredients;
+                listItem.appendChild(h3);
+
+                const remarksP = document.createElement('p');
+                remarksP.textContent = item.remarks;
+                listItem.appendChild(remarksP);
+
+                const categoriesP = document.createElement('p');
+                categoriesP.textContent = `Categories: ${item.categories}`;
+                listItem.appendChild(categoriesP);
+
+                const compatibilityP = document.createElement('p');
+                compatibilityP.textContent = `Compatibility: ${item.compatibility}`;
+                listItem.appendChild(compatibilityP);
+
+                const histamineP = document.createElement('p');
+                histamineP.setAttribute('data-histamine', item.histamine_num);
+                histamineP.textContent = `Histamine: ${item.histamine}`;
+                listItem.appendChild(histamineP);
+
+                const liberatorP = document.createElement('p');
+                liberatorP.setAttribute('data-liberator', item.liberator_num);
+                liberatorP.textContent = `Liberator: ${item.liberator}`;
+                listItem.appendChild(liberatorP);
+
+                const aminesP = document.createElement('p');
+                aminesP.setAttribute('data-amines', item.amines_num);
+                aminesP.textContent = `Amines: ${item.amines}`;
+                listItem.appendChild(aminesP);
+
+                const blockerP = document.createElement('p');
+                blockerP.setAttribute('data-blocker', item.blocker_num);
+                blockerP.textContent = `Blocker: ${item.blocker}`;
+                listItem.appendChild(blockerP);
+
+                // // add some attribute for css style matching
+                // listItem.setAttribute('data-id', item.id);
+                // listItem.setAttribute('h-num', item.histamine_num);
+                // listItem.setAttribute('a-num', item.amines_num);
+                // listItem.setAttribute('l-num', item.liberator_num);
+                // listItem.setAttribute('b-num', item.blocker_num);
+                // listItem.innerHTML = `
+                //     <h3>${item.ingredients}</h3>
+                //     <p>${item.remarks}</p>
+                //     <p>Categories: ${item.categories}</p>
+                //     <p>Compatability: ${item.compatibility}</p>
+                //     <p>Histamine: ${item.histamine}</p>
+                //     <p>Liberator: ${item.liberator}</p>
+                //     <p>Amines: ${item.amines}</p>
+                //     <p>Blocker: ${item.blocker}</p>
+                // `;
                 resultsList.appendChild(listItem);
             });
         } else {
@@ -80,6 +125,59 @@
             listItem.textContent = 'No items found.';
             resultsList.appendChild(listItem);
         }
+
+    //    Table hack version
+    //     // Create table header
+    //     const headerRow = document.createElement('tr');
+    //     ['Ingredients', 'Remarks', 'Categories', 'Compatibility', 'Histamine', 'Amines', 'Blocker'].forEach(text => {
+    //       const th = document.createElement('th');
+    //       th.textContent = text;
+    //       headerRow.appendChild(th);
+    //     });
+    //     resultsTable.appendChild(headerRow);
+    //
+    //     // Add table rows for each item
+    //     matchingItems.forEach(item => {
+    //       const row = document.createElement('tr');
+    //
+    //       const ingredients = document.createElement('td');
+    //       ingredients.textContent = item.ingredients;
+    //       row.appendChild(ingredients);
+    //
+    //       const remarks = document.createElement('td');
+    //       remarks.textContent = item.remarks;
+    //       row.appendChild(remarks);
+    //
+    //       const categories = document.createElement('td');
+    //       categories.textContent = item.categories.join(', ');
+    //       row.appendChild(categories);
+    //
+    //       const compatibility = document.createElement('td');
+    //       compatibility.textContent = item.compatibility;
+    //       row.appendChild(compatibility);
+    //
+    //       const histamine = document.createElement('td');
+    //       histamine.textContent = item.histamine;
+    //       row.appendChild(histamine);
+    //
+    //       const amines = document.createElement('td');
+    //       amines.textContent = item.amines;
+    //       row.appendChild(aminas);
+    //
+    //       const blocker = document.createElement('td');
+    //       blocker.textContent = item.blocker;
+    //       row.appendChild(blocker);
+    //
+    //       resultsTable.appendChild(row);
+    //     });
+    //     } else {
+    //       const noResultRow = document.createElement('tr');
+    //       const noResultCell = document.createElement('td');
+    //       noResultCell.setAttribute('colspan', '7');
+    //       noResultCell.textContent = 'No items found.';
+    //       noResultRow.appendChild(noResultCell);
+    //       resultsTable.appendChild(noResultRow);
+    //     }
     } // end processSearch
 
 

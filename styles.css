@@ -46,6 +46,24 @@ input, button {
     color: red;
 }
 
+#results-list li[data-histamine="3"] p {
+    color: red;
+}
+
+#results-list li[data-histamine="2"] p {
+    color: orangered;
+}
+
+#results-list li[data-histamine="1"] p {
+    color: yellow;
+}
+
+#results-list li[data-histamine="0"] p {
+    color: green;
+}
+
+
+
 /* Responsive styles */
 @media (max-width: 600px) {
     label, input, button {
