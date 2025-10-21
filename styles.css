@@ -56,16 +56,16 @@ input, button {
 
 
 
-#results-list li [data-compat="3"] h3 {
+#results-list li[data-compat="3"] h3 {
     color: var(--level-three);
 }
-#results-list li [data-compat="2"] h3 {
+#results-list li[data-compat="2"] h3 {
     color: var(--level-two);
 }
-#results-list li [data-compat="1"] h3 {
+#results-list li[data-compat="1"] h3 {
     color: var(--level-one);
 }
-#results-list li [data-compat="0"] h3 {
+#results-list li[data-compat="0"] h3 {
     color: var(--level-zero);
 }
 
