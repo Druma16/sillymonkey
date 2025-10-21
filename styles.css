@@ -1,3 +1,16 @@
+/* Define the custom color properties */
+:root {
+    /* colour option1 : https://colordesigner.io/gradient-generator
+        palette builder square (aka tetradic)
+    */
+    --level-zero: green;
+    --level-one: orange;
+    --level-two: orangered;
+    --level-three: deeppink;
+    /*--main-contrast: 191, 146, 69; !*#bf9245;*!*/
+    /*--main-highlight: #bf45af;*/
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -47,7 +60,7 @@ input, button {
 }
 
 #results-list li p[data-histamine="3"] {
-    color: red;
+    color: pink;
 }
 
 #results-list li p[data-histamine="2"] {
@@ -55,11 +68,23 @@ input, button {
 }
 
 #results-list li p[data-histamine="1"] {
-    color: yellow;
+    color: orange;
 }
 
 #results-list li p[data-histamine="0"] {
     color: green;
+}
+
+#results-list li p[data-liberator="2"] {
+    color: var(--level-two);
+}
+
+#results-list li p[data-liberator="1"] {
+    color: var(--level-one);
+}
+
+#results-list li p[data-liberator="0"] {
+    color: var(--level-zero);
 }
 
 
