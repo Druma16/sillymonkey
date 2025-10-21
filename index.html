@@ -66,6 +66,7 @@
 
                 listItem.innerHTML = '';
 
+                listItem.setAttribute('data-compat', item.compatibility);
                 const h3 = document.createElement('h3');
                 h3.textContent = item.ingredients;
                 listItem.appendChild(h3);
@@ -79,6 +80,7 @@
                 listItem.appendChild(categoriesP);
 
                 const compatibilityP = document.createElement('p');
+                compatibilityP.setAttribute('data-compat', item.compatibility);
                 compatibilityP.textContent = `Compatibility: ${item.compatibility}`;
                 listItem.appendChild(compatibilityP);
 
