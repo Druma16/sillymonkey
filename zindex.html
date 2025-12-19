@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Item Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+<!--  <style>-->
+<!--    #results-list li[data-id="2"] h3 {-->
+<!--      color: red;-->
+<!--    }-->
+<!--  </style>-->
+</head>
+<body>
+  <header>
+    <h1>Item Lookup</h1>
+  </header>
+<!--  Minimum responsive according to AI -->
+  <div class="container">
+    <section class="search-section">
+      <label for="search-input">Search for an item:</label>
+      <input type="text" id="search-input" placeholder="Enter item name">
+      <button id="search-button">Search</button>
+    </section>
+
+    <section class="results-section">
+      <h2>Results:</h2>
+      <ul id="results-list"></ul>
+    </section>
+  </div>
+  <script>
+
+    // Function to handle the lookup
+    let itemData = null; // placeholder for caching data
+
+    function lookupItem() {
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+
+        // get the data to use if not cached already
+        if (!itemData) {
+            // fetch('data.json')
+            fetch('https://druma16.github.io/sillymonkey/data.json')
+                .then(response => response.json())
+                .then(data => {
+                    itemData = data; // Cache the data
+                    processSearch(searchInput);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        } else {
+            processSearch(searchInput);
+        }
+    } // end lookupItem
+
+    function processSearch(searchInput) {
+        const resultsList = document.getElementById('results-list');
+        resultsList.innerHTML = '';
+
+        // Find the matches TODO is lower case needed on the search input?
+        const matchingItems = itemData.filter(item => item.ingredients.toLowerCase().includes(searchInput));
+
+        // Convert matches to display elements (list)
+
+        if (matchingItems.length > 0) {
+            matchingItems.forEach(item => {
+                const listItem = document.createElement('li');
+
+                listItem.innerHTML = '';
+
+                listItem.setAttribute('data-compat', item.compatibility);
+                const h3 = document.createElement('h3');
+                h3.textContent = item.ingredients;
+                listItem.appendChild(h3);
+
+                const remarksP = document.createElement('p');
+                remarksP.textContent = item.remarks;
+                listItem.appendChild(remarksP);
+
+                const categoriesP = document.createElement('p');
+                categoriesP.textContent = `Categories: ${item.categories}`;
+                listItem.appendChild(categoriesP);
+
+                const compatibilityP = document.createElement('p');
+                compatibilityP.setAttribute('data-compat', item.compatibility);
+                compatibilityP.textContent = `Compatibility: ${item.compatibility}`;
+                listItem.appendChild(compatibilityP);
+
+                const histamineP = document.createElement('p');
+                histamineP.setAttribute('data-histamine', item.histamine_num);
+                histamineP.textContent = `Histamine: ${item.histamine}`;
+                listItem.appendChild(histamineP);
+
+                const liberatorP = document.createElement('p');
+                liberatorP.setAttribute('data-liberator', item.liberator_num);
+                liberatorP.textContent = `Liberator: ${item.liberator}`;
+                listItem.appendChild(liberatorP);
+
+                const aminesP = document.createElement('p');
+                aminesP.setAttribute('data-amines', item.amines_num);
+                aminesP.textContent = `Amines: ${item.amines}`;
+                listItem.appendChild(aminesP);
+
+                const blockerP = document.createElement('p');
+                blockerP.setAttribute('data-blocker', item.blocker_num);
+                blockerP.textContent = `Blocker: ${item.blocker}`;
+                listItem.appendChild(blockerP);
+                resultsList.appendChild(listItem);
+            });
+        } else {
+            const listItem = document.createElement('li');
+            listItem.textContent = 'No items found.';
+            resultsList.appendChild(listItem);
+        }
+    } // end processSearch
+
+    // Add event listener to the search button
+    document.getElementById('search-button').addEventListener('click', lookupItem);
+  </script>
+</body>
+</html>

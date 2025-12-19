@@ -1,0 +1,153 @@
+/* Define the custom color properties */
+:root {
+    /* colour option1 : https://colordesigner.io/gradient-generator
+        palette builder square (aka tetradic)
+    */
+    --level-zero: green;
+    --level-one: orange;
+    --level-two: orangered;
+    --level-three: deeppink;
+    /*--main-contrast: 191, 146, 69; !*#bf9245;*!*/
+    /*--main-highlight: #bf45af;*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 1rem;
+}
+
+label, input, button {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input, button {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#results-section {
+    margin-top: 1rem;
+}
+
+#results-list {
+    list-style: none;
+    padding: 0;
+}
+
+#results-list li {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+#results-list li[data-compat="3"] h3 {
+    color: var(--level-three);
+}
+#results-list li[data-compat="2"] h3 {
+    color: var(--level-two);
+}
+#results-list li[data-compat="1"] h3 {
+    color: var(--level-one);
+}
+#results-list li[data-compat="0"] h3 {
+    color: var(--level-zero);
+}
+
+
+#results-list li p[data-compat="3"] {
+    color: var(--level-three);
+}
+#results-list li p[data-compat="2"] {
+    color: var(--level-two);
+}
+#results-list li p[data-compat="1"] {
+    color: var(--level-one);
+}
+#results-list li p[data-compat="0"] {
+    color: var(--level-zero);
+}
+
+#results-list li p[data-histamine="3"] {
+    color: var(--level-three);
+}
+#results-list li p[data-histamine="2"] {
+    color: var(--level-two);
+}
+#results-list li p[data-histamine="1"] {
+    color: var(--level-one);
+}
+#results-list li p[data-histamine="0"] {
+    color: var(--level-zero);
+}
+
+#results-list li p[data-liberator="2"] {
+    color: var(--level-two);
+}
+#results-list li p[data-liberator="1"] {
+    color: var(--level-one);
+}
+#results-list li p[data-liberator="0"] {
+    color: var(--level-zero);
+}
+
+#results-list li p[data-amines="2"] {
+    color: var(--level-two);
+}
+#results-list li p[data-amines="1"] {
+    color: var(--level-one);
+}
+#results-list li p[data-amines="0"] {
+    color: var(--level-zero);
+}
+
+
+#results-list li p[data-blocker="2"] {
+    color: var(--level-two);
+}
+#results-list li p[data-blocker="1"] {
+    color: var(--level-one);
+}
+#results-list li p[data-blocker="0"] {
+    color: var(--level-zero);
+}
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    label, input, button {
+        width: 100%;
+    }
+
+    #results-list li {
+        padding: 0.3rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
