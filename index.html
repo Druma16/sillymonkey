@@ -23,6 +23,13 @@
 
     <section class="results-section">
       <h2>Results:</h2>
+      <div class="keywords-container">
+        <span class="keyword">C = Compatibility</span>
+        <span class="keyword">H = Histamine</span>
+        <span class="keyword">L = Liberator</span>
+        <span class="keyword">A = Amines</span>
+        <span class="keyword">B = Blocker</span>
+      </div>
       <table id="results-table"></table>
     </section>
   </div>
@@ -60,7 +67,8 @@
         resultsTable.innerHTML = ''; // clear previous results
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
-        ['Ingredients','Compatibility', 'Histamine', 'Liberator', 'Amines', 'Blocker', 'Remarks', 'Categories'].forEach(text => {
+        // ['Ingredients','Compatibility', 'Histamine', 'Liberator', 'Amines', 'Blocker', 'Remarks', 'Categories'].forEach(text => {
+        ['Ingredients','C', 'H', 'L', 'A', 'B', 'Remarks', 'Groups'].forEach(text => {
           const th = document.createElement('th');
           th.textContent = text;
           headerRow.appendChild(th);
