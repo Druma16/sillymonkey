@@ -421,7 +421,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "milk, lactosefree",
-    "remarks": " Sometimes well tolerated, sometimes slightly worse tolerated than regular milk.",
+    "remarks": "Sometimes well tolerated, sometimes slightly worse tolerated than regular milk.",
     "id": 25
   },
   {
@@ -438,7 +438,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "milk, pasteurised",
-    "remarks": " Milk may be incompatible, as long as the bowel is still irritated.",
+    "remarks": "Milk may be incompatible, as long as the bowel is still irritated.",
     "id": 26
   },
   {
@@ -472,7 +472,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "milkpowder",
-    "remarks": " Sometimes well tolerated, sometimes not.",
+    "remarks": "Sometimes well tolerated, sometimes not.",
     "id": 28
   },
   {
@@ -567,14 +567,14 @@
     "compatibility": "0",
     "histamine": "H!",
     "histamine_num": "3",
-    "amines": "? ",
+    "amines": "?",
     "amines_num": "1",
     "liberator": "?",
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "raw milk",
-    "remarks": " Perishable due to higher bacterial count. Use only fresh.",
+    "remarks": "Perishable due to higher bacterial count. Use only fresh.",
     "id": 34
   },
   {
@@ -590,7 +590,7 @@
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "ready-made cheese preparations (with other/further ingredients) ",
+    "ingredients": "ready-made cheese preparations (with other/further ingredients)",
     "remarks": "Depending on the ingredients and freshness",
     "id": 35
   },
@@ -693,7 +693,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "yoghurt (natural yoghurt)",
-    "remarks": " Varies by product Meat",
+    "remarks": "Varies by product Meat",
     "id": 41
   },
   {
@@ -812,7 +812,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "game",
-    "remarks": " Mostly matured meat, but fresh wild boar is well tolerated.",
+    "remarks": "Mostly matured meat, but fresh wild boar is well tolerated.",
     "id": 48
   },
   {
@@ -1016,7 +1016,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "tongue (veal, beef) ",
+    "ingredients": "tongue (veal, beef)",
     "remarks": "Check for intolerated ingredients if processed ready to eat. No smoked products.",
     "id": 60
   },
@@ -1068,7 +1068,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "venison",
-    "remarks": " Mostly matured meat, but fresh wild boar is well tolerated.",
+    "remarks": "Mostly matured meat, but fresh wild boar is well tolerated.",
     "id": 63
   },
   {
@@ -1085,7 +1085,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "wild meat",
-    "remarks": " Mostly matured meat, but fresh wild boar is well tolerated.",
+    "remarks": "Mostly matured meat, but fresh wild boar is well tolerated.",
     "id": 64
   },
   {
@@ -1121,7 +1121,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "fish (freshly caught or frozen)",
-    "remarks": " Extremely depending on freshness and species",
+    "remarks": "Extremely depending on freshness and species",
     "id": 66
   },
   {
@@ -1139,7 +1139,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "fish (in the shop in the cooling rack or on ice)",
-    "remarks": " Extremely depending on freshness and species",
+    "remarks": "Extremely depending on freshness and species",
     "id": 67
   },
   {
@@ -1156,7 +1156,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "trout (freshwater): brown trout, brook trout, rainbow trout ",
+    "ingredients": "trout (freshwater): brown trout, brook trout, rainbow trout",
     "remarks": "Perishable. Rapid histamine formation.",
     "id": 68
   },
@@ -1444,7 +1444,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "amaranth, Amaranthus",
-    "remarks": " May cause diarrhea in some cases. This entry refers to the pseudo grain called amaranth, (plant genus Amaranthus). Not to be confused with the azo dye amaranth (an artificial food coloring).",
+    "remarks": "May cause diarrhea in some cases. This entry refers to the pseudo grain called amaranth, (plant genus Amaranthus). Not to be confused with the azo dye amaranth (an artificial food coloring).",
     "id": 84
   },
   {
@@ -1932,7 +1932,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "dried sweet corn (maize meal, maize flour) ",
+    "ingredients": "dried sweet corn (maize meal, maize flour)",
     "remarks": "",
     "id": 111
   },
@@ -2108,7 +2108,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "chufa sedge (Cyperus esculentus) ",
+    "ingredients": "chufa sedge (Cyperus esculentus)",
     "remarks": "Actually not a nut, but tuber (thickening of stolons)",
     "id": 121
   },
@@ -2125,7 +2125,7 @@
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "chufa sedge (Cyperus esculentus), roasted ",
+    "ingredients": "chufa sedge (Cyperus esculentus), roasted",
     "remarks": "Actually not a nut, but tuber (thickening of stolons)",
     "id": 122
   },
@@ -2143,7 +2143,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "earth almond",
-    "remarks": " Actually not a nut, but tuber (thickening of stolons)",
+    "remarks": "Actually not a nut, but tuber (thickening of stolons)",
     "id": 123
   },
   {
@@ -2363,7 +2363,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "coconut fat, coconut oil, copra oil ",
+    "ingredients": "coconut fat, coconut oil, copra oil",
     "remarks": "Very recommended",
     "id": 136
   },
@@ -2380,8 +2380,8 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "fennel flower oil (Nigella sativa), Nigella sativa oil ",
-    "remarks": " antiallergic",
+    "ingredients": "fennel flower oil (Nigella sativa), Nigella sativa oil",
+    "remarks": "antiallergic",
     "id": 137
   },
   {
@@ -2415,7 +2415,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "nutmeg flower oil (Nigella sativa)",
-    "remarks": " antiallergic",
+    "remarks": "antiallergic",
     "id": 139
   },
   {
@@ -2499,7 +2499,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "Roman coriander oil (Nigella sativa) ",
+    "ingredients": "Roman coriander oil (Nigella sativa)",
     "remarks": "antiallergic",
     "id": 144
   },
@@ -2958,7 +2958,7 @@
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "chili pepper, red, fresh ",
+    "ingredients": "chili pepper, red, fresh",
     "remarks": "Hotness is irritating",
     "id": 171
   },
@@ -2976,7 +2976,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "choko",
-    "remarks": " Possibly not well tolerated.",
+    "remarks": "Possibly not well tolerated.",
     "id": 172
   },
   {
@@ -3215,7 +3215,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "kelp (large seaweeds (algae) belonging to the brown algae)",
-    "remarks": " e.g. as an ingredient in seasoned salt / herbal salt",
+    "remarks": "e.g. as an ingredient in seasoned salt / herbal salt",
     "id": 186
   },
   {
@@ -3299,7 +3299,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "head and leaf lettuces ",
+    "ingredients": "head and leaf lettuces",
     "remarks": "Rating applies to the plant without dressing",
     "id": 191
   },
@@ -3826,7 +3826,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "bear leek, bear's garlic (Allium ursinum) ",
+    "ingredients": "bear leek, bear's garlic (Allium ursinum)",
     "remarks": "Small amounts are well tolerated.",
     "id": 222
   },
@@ -3843,7 +3843,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "broad-leaved garlic (Allium ursinum) ",
+    "ingredients": "broad-leaved garlic (Allium ursinum)",
     "remarks": "Small amounts are well tolerated.",
     "id": 223
   },
@@ -3860,7 +3860,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "buckrams (Allium ursinum) ",
+    "ingredients": "buckrams (Allium ursinum)",
     "remarks": "Small amounts are well tolerated.",
     "id": 224
   },
@@ -3894,7 +3894,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "clover (trigonella and trifolium species) ",
+    "ingredients": "clover (trigonella and trifolium species)",
     "remarks": "For example, fenugreek, blue fenugreek",
     "id": 226
   },
@@ -3997,7 +3997,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "ramsons (Allium ursinum)",
-    "remarks": " Small amounts are well tolerated.",
+    "remarks": "Small amounts are well tolerated.",
     "id": 232
   },
   {
@@ -4064,7 +4064,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "wild garlic, wood garlic (Allium ursinum) ",
+    "ingredients": "wild garlic, wood garlic (Allium ursinum)",
     "remarks": "Small amounts are well tolerated.",
     "id": 236
   },
@@ -4149,7 +4149,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "aronia, chokeberries, red chokeberry (Aronia arbutifolia), black chokeberry (Aronia melanocarpa) ",
+    "ingredients": "aronia, chokeberries, red chokeberry (Aronia arbutifolia), black chokeberry (Aronia melanocarpa)",
     "remarks": "",
     "id": 241
   },
@@ -4166,7 +4166,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": " Asimina triloba",
+    "ingredients": "Asimina triloba",
     "remarks": "",
     "id": 242
   },
@@ -4218,7 +4218,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "Barbary fig, cactus pear (Opuntia ficus-indica), spineless cactus, prickly pear",
-    "remarks": " Avoid skin contact with the spikes!",
+    "remarks": "Avoid skin contact with the spikes!",
     "id": 245
   },
   {
@@ -4354,7 +4354,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "cocoa butter",
-    "remarks": " Mostly well tolerated",
+    "remarks": "Mostly well tolerated",
     "id": 253
   },
   {
@@ -4388,7 +4388,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "coconut, coconut shavings, coconut milk",
-    "remarks": " Good source of selenium",
+    "remarks": "Good source of selenium",
     "id": 255
   },
   {
@@ -4523,7 +4523,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "figs (fresh or dried) ",
+    "ingredients": "figs (fresh or dried)",
     "remarks": "May be slightly laxative",
     "id": 263
   },
@@ -4677,7 +4677,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "ladyfinger banana",
-    "remarks": " The greener the better tolerated",
+    "remarks": "The greener the better tolerated",
     "id": 272
   },
   {
@@ -4830,7 +4830,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "melons (except watermelon)",
-    "remarks": " Suspected occasional histamine liberator effects (due to pollutant / pesticide exposure?)",
+    "remarks": "Suspected occasional histamine liberator effects (due to pollutant / pesticide exposure?)",
     "id": 281
   },
   {
@@ -5119,7 +5119,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "Prunus domestica subsp. Domestica",
-    "remarks": " Better tolerated than other plums. Mainly cultivated in Central Europe.",
+    "remarks": "Better tolerated than other plums. Mainly cultivated in Central Europe.",
     "id": 298
   },
   {
@@ -5306,7 +5306,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "sugar banana",
-    "remarks": " The greener the better tolerated",
+    "remarks": "The greener the better tolerated",
     "id": 309
   },
   {
@@ -5357,7 +5357,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "Zwetschge (damson plum subspecies domestica)",
-    "remarks": " Better tolerated than other plums. Mainly cultivated in Central Europe",
+    "remarks": "Better tolerated than other plums. Mainly cultivated in Central Europe",
     "id": 312
   },
   {
@@ -5391,7 +5391,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "ispaghula, isabgol, psyllium seed husks  (Plantago ovata)",
-    "remarks": " Can be useful both for constipation as well as diarrhea.",
+    "remarks": "Can be useful both for constipation as well as diarrhea.",
     "id": 314
   },
   {
@@ -5441,7 +5441,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "algae and algae derivatives ",
+    "ingredients": "algae and algae derivatives",
     "remarks": "Extremely rich in iodine",
     "id": 317
   },
@@ -5650,7 +5650,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "yeast (fresh, dried, in all forms) ",
+    "ingredients": "yeast (fresh, dried, in all forms)",
     "remarks": "Well tolerated when produced under perfect hygienic conditions. Exceptions: baked goods with a long dough fermentation time may be intolerated. High content of glutamic acid (see glutamate). Sweeteners",
     "id": 329
   },
@@ -5667,7 +5667,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "agave nectar, agave syrup ",
+    "ingredients": "agave nectar, agave syrup",
     "remarks": "High fructose content",
     "id": 330
   },
@@ -5975,7 +5975,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "sugar (beet sugar, cane sugar) ",
+    "ingredients": "sugar (beet sugar, cane sugar)",
     "remarks": "Nevertheless, should be used sparingly, not as a main nutrient.",
     "id": 348
   },
@@ -6033,7 +6033,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "bay laurel, laurel, sweet bay, bay tree, true laurel, Grecian laurel",
-    "remarks": " Small amounts are well tolerated, for larger quantities lack of experience.",
+    "remarks": "Small amounts are well tolerated, for larger quantities lack of experience.",
     "id": 351
   },
   {
@@ -6051,7 +6051,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "black caraway (Nigella sativa) ",
+    "ingredients": "black caraway (Nigella sativa)",
     "remarks": "antiallergic",
     "id": 352
   },
@@ -6070,7 +6070,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "bouillon (because of yeast extract / meat extract / glutamate) ",
+    "ingredients": "bouillon (because of yeast extract / meat extract / glutamate)",
     "remarks": "Almost always with incompatible ingredients (glutamate, yeast extract, spice/aroma/flavour/seasoning/condiment/wort (in the meaning of protein hydrolysates), meat extracts, incompatible vegetables)",
     "id": 353
   },
@@ -6222,7 +6222,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "distilled white vinegar ",
+    "ingredients": "distilled white vinegar",
     "remarks": "Low histamine, but not free from histamine. Use sparingly. Check for intolerated additives.",
     "id": 361
   },
@@ -6241,7 +6241,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "fennel flower (Nigella sativa) ",
+    "ingredients": "fennel flower (Nigella sativa)",
     "remarks": "antiallergic",
     "id": 362
   },
@@ -6337,7 +6337,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "mustard, mustard seeds, mustard seed powder ",
+    "ingredients": "mustard, mustard seeds, mustard seed powder",
     "remarks": "Seeds of the mustard plant and products thereof",
     "id": 367
   },
@@ -6509,7 +6509,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "seasoning made of hydrolysated proteins ",
+    "ingredients": "seasoning made of hydrolysated proteins",
     "remarks": "Derived from vegetal protein hydrolysate, aroma reminiscent of meat broth. Contains glutamate, histamine and amines.",
     "id": 376
   },
@@ -6547,7 +6547,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "spirit vinegar, distilled white vinegar ",
+    "ingredients": "spirit vinegar, distilled white vinegar",
     "remarks": "Low histamine, but not free from histamine. Use sparingly. Check for intolerated additives.",
     "id": 378
   },
@@ -6623,7 +6623,7 @@
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "vanilla, vanilla pod, vanilla powder, vanilla sugar ",
+    "ingredients": "vanilla, vanilla pod, vanilla powder, vanilla sugar",
     "remarks": "Tolerated in small quantities. Fermentation! Possibly traces of sulfite? (See also additives > vanillin)",
     "id": 382
   },
@@ -6751,7 +6751,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "tap water",
-    "remarks": "water ",
+    "remarks": "water",
     "id": 389
   },
   {
@@ -6989,7 +6989,7 @@
     "blocker": "B",
     "blocker_num": "2",
     "ingredients": "white wine",
-    "remarks": "white wine ",
+    "remarks": "white wine",
     "id": 403
   },
   {
@@ -7045,7 +7045,7 @@
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "herbal teas with medicinal herbs ",
+    "ingredients": "herbal teas with medicinal herbs",
     "remarks": "(especially complex mixtures with numerous ingredients) Incompatible ingredient not yet identified",
     "id": 406
   },
@@ -7198,7 +7198,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "verbena herbal tea",
-    "remarks": "Has a calming effect on intestine and nervous system. ",
+    "remarks": "Has a calming effect on intestine and nervous system.",
     "id": 414
   },
   {
@@ -7368,7 +7368,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "oat drink, oat milk ",
+    "ingredients": "oat drink, oat milk",
     "remarks": "Often slightly histamine containing as fermented enzymatically.",
     "id": 423
   },
@@ -7386,7 +7386,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "rice milk, rice drink ",
+    "ingredients": "rice milk, rice drink",
     "remarks": "Often slightly histamine containing as fermented enzymatically.",
     "id": 424
   },
@@ -7597,7 +7597,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E1103, invertase, saccharase, glucosucrase, beta-h- fructosidase, beta-fructosidase, invertin, sucrase ",
+    "ingredients": "E1103, invertase, saccharase, glucosucrase, beta-h- fructosidase, beta-fructosidase, invertin, sucrase",
     "remarks": "",
     "id": 436
   },
@@ -7631,7 +7631,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E1200, polydextrose ",
+    "ingredients": "E1200, polydextrose",
     "remarks": "May produce laxative effects in large quantities.",
     "id": 438
   },
@@ -7818,7 +7818,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E132, indigo carmine, indigotine ",
+    "ingredients": "E132, indigo carmine, indigotine",
     "remarks": "",
     "id": 449
   },
@@ -7870,7 +7870,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "E141, copper complexes of chlorophylls and chlorophyllins",
-    "remarks": " ? ? E142, Green S, Food Green S, FD&C Green 4, Acid green 50, Lissamine Green , Wool Green S, C.I. 44090",
+    "remarks": "? ? E142, Green S, Food Green S, FD&C Green 4, Acid green 50, Lissamine Green , Wool Green S, C.I. 44090",
     "id": 452
   },
   {
@@ -7954,7 +7954,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E150c, ammonia caramel ",
+    "ingredients": "E150c, ammonia caramel",
     "remarks": "Possibly not as good tolerated as E150?",
     "id": 457
   },
@@ -7971,7 +7971,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E150d, sulphite ammonia caramel ",
+    "ingredients": "E150d, sulphite ammonia caramel",
     "remarks": "Possibly not as good tolerated as E150?",
     "id": 458
   },
@@ -8073,7 +8073,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E160b, bixin, norbixin, annatto ",
+    "ingredients": "E160b, bixin, norbixin, annatto",
     "remarks": "",
     "id": 464
   },
@@ -8090,7 +8090,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E160d, lycopene ",
+    "ingredients": "E160d, lycopene",
     "remarks": "",
     "id": 465
   },
@@ -8124,7 +8124,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E160f, Food orange 7 ",
+    "ingredients": "E160f, Food orange 7",
     "remarks": "",
     "id": 467
   },
@@ -8243,7 +8243,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E172, iron oxides ",
+    "ingredients": "E172, iron oxides",
     "remarks": "",
     "id": 474
   },
@@ -8702,7 +8702,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E234, nisin ",
+    "ingredients": "E234, nisin",
     "remarks": "",
     "id": 501
   },
@@ -8753,7 +8753,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E242, dimethyl dicarbonate, DMDC, methoxycarbonyl methyl carbonate, dimethyl pyrocarbonate, velcorin ",
+    "ingredients": "E242, dimethyl dicarbonate, DMDC, methoxycarbonyl methyl carbonate, dimethyl pyrocarbonate, velcorin",
     "remarks": "",
     "id": 504
   },
@@ -8906,7 +8906,7 @@
     "liberator_num": "0",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E270, lactic acid, milk acid, 2-hydroxypropanoic acid ",
+    "ingredients": "E270, lactic acid, milk acid, 2-hydroxypropanoic acid",
     "remarks": "",
     "id": 513
   },
@@ -9858,7 +9858,7 @@
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "E441, gelatin ",
+    "ingredients": "E441, gelatin",
     "remarks": "Controversial, may also be tolerated.",
     "id": 569
   },
@@ -10371,7 +10371,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "Vanillin (synthetic)",
-    "remarks": " Slightly irritating. Use sparingly.",
+    "remarks": "Slightly irritating. Use sparingly.",
     "id": 599
   },
   {
@@ -10404,7 +10404,7 @@
     "liberator_num": "1",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "carob, carob powder, carob pod meal ",
+    "ingredients": "carob, carob powder, carob pod meal",
     "remarks": "Carob is the dried (and sometimes roasted) pod, and not the seeds.",
     "id": 601
   },
@@ -10443,7 +10443,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "Carbonic acid, carbonated drinks, fizzy drinks",
-    "remarks": "Only short time effects. Symptoms quickly disappear ",
+    "remarks": "Only short time effects. Symptoms quickly disappear",
     "id": 603
   },
   {
@@ -10460,7 +10460,7 @@
     "blocker": "",
     "blocker_num": "0",
     "ingredients": "Flavourings, flavorings",
-    "remarks": "This can be anything. Mostly not well tolerated. ",
+    "remarks": "This can be anything. Mostly not well tolerated.",
     "id": 604
   },
   {
@@ -10496,7 +10496,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "Folic acid, folate, vitamin B9, pteroyl--glutamic acid ",
+    "ingredients": "Folic acid, folate, vitamin B9, pteroyl--glutamic acid",
     "remarks": "To be debated Similar to glutamic acid / glutamate?",
     "id": 606
   },
@@ -10556,7 +10556,7 @@
     "liberator_num": "2",
     "blocker": "",
     "blocker_num": "0",
-    "ingredients": "Potassium iodate, potassium iodide ",
+    "ingredients": "Potassium iodate, potassium iodide",
     "remarks": "e.g. as additive in iodized table salt",
     "id": 609
   },

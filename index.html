@@ -96,22 +96,26 @@
               row.appendChild(compatibility);
 
               const histamine = document.createElement('td');
-              histamine.textContent = item.histamine;
+              // histamine.textContent = item.histamine;
+              histamine.textContent = item.histamine === '?' ? 'H?' : item.histamine;
               histamine.setAttribute('data-histamine', item.histamine_num);
               row.appendChild(histamine);
 
               const liberator = document.createElement('td');
-              liberator.textContent = item.liberator;
+              // liberator.textContent = item.liberator;
+              liberator.textContent = item.liberator === '?' ? 'L?' : item.liberator;
               liberator.setAttribute('data-liberator', item.liberator_num);
               row.appendChild(liberator)
 
               const amines = document.createElement('td');
-              amines.textContent = item.amines;
+              // amines.textContent = item.amines;
+              amines.textContent = item.amines === '?' ? 'A?' : item.amines;
               amines.setAttribute('data-amines', item.amines_num);
               row.appendChild(amines);
 
               const blocker = document.createElement('td');
-              blocker.textContent = item.blocker;
+              // blocker.textContent = item.blocker;
+              blocker.textContent = item.blocker === '?' ? 'B?' : item.blocker;
               blocker.setAttribute('data-blocker', item.blocker_num);
               row.appendChild(blocker);
 
